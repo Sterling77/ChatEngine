@@ -22,6 +22,12 @@ public class DefaultController {
         return "login";
 
     }
+//    @RequestMapping(value="/webinterface")
+//    public String jspwebinterface() {
+//        return "webinterface";
+
+//    }
+
 
     @RequestMapping(value="/logout")
     public String logout(HttpServletRequest request, HttpServletResponse response) {
